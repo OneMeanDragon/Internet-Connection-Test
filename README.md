@@ -2,15 +2,15 @@
 
 -This was just a test app.
 
-The section of the app in which I was searching for was the following lines.
------------------------------------------------------------------------------
+The section of the app in which I was researching for was the following lines.
+------------------------------------------------------------------------------
 ```
 std::string urlx = "http://192.168.0.10:21845";
 bool bConnect = InternetCheckConnectionA(urlx.c_str(), FLAG_ICC_FORCE_CONNECTION, 0);
 if (bConnect) { msgOut = "True"; }
 ```
 Which evolved into the following.
------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 ```
 #pragma region "Test conectivity"
 	bool WeHaveInternetConnection(std::string host, std::string port) {
@@ -27,7 +27,7 @@ Which evolved into the following.
 	}
 #pragma endregion
 ```
------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 
 -l)ragon
